@@ -1,0 +1,159 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  /* height: 100vh; */
+  min-height: 100vh;
+  width: 100%;
+  background-color: #202124;
+  padding-bottom: 10px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.input-box {
+  border: None;
+  width: 93%;
+  background-color: transparent;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 320px) {
+  .input-box,  .input-box.content {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .take-note-form {
+    width: 90%;
+  }
+
+  .card {
+    flex: 1 0 50%;
+  }
+}
+
+/* Small devices (up to 576px) */
+@media (min-width: 321px) and (max-width: 576px) {
+  .input-box , .input-box.content{
+    font-size: 14px;
+    padding: 8px;
+  }
+  .take-note-form {
+    width: 80%;
+  }
+  .card {
+    flex: 0 0 100%;
+  }
+}
+
+
+
+/* Medium devices (between 577px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .input-box , .input-box.content{
+    font-size: 16px;
+    padding: 10px;
+  }
+  .take-note-form {
+    width: 70%;
+  }
+  .card {
+    flex: 0 0 47%;
+  }
+}
+
+/* Large devices (between 769px and 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .input-box, .input-box.content {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .take-note-form {
+    width: 60%;
+  }
+  .card {
+    flex: 0 0 31%;
+  }
+}
+
+/* Large devices (between 769px and 992px) */
+@media (min-width: 993px) and (max-width: 1199px) {
+  .input-box,  .input-box.content {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .take-note-form {
+    width: 60%;
+  }
+  .card {
+    flex: 0 0 23%;
+  }
+}
+
+
+/* Extra-large devices (over 1200px) */
+@media (min-width: 1200px) {
+  .input-box,  .input-box.content {
+    font-size: 20px;
+    padding: 14px;
+  }
+  .take-note-form {
+    width: 800px;
+  }
+  .card {
+    flex: 0 0 23%;
+  }
+}

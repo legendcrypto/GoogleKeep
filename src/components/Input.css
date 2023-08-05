@@ -1,0 +1,85 @@
+.take-note-form {
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.265);
+}
+
+form {
+    padding: 10px 8px;
+    justify-content: space-between;
+}
+
+input {
+    background-color: #202124;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%
+}
+
+.content {
+    padding: 15px 0px;
+}
+
+.btn-pin {
+    background-color: #202124;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+}
+i {
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-pin:hover {
+    background-color: rgba(255, 255, 255, 0.146);
+}
+.btn-pin:hover i {
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+.card {
+    /* flex-basis: 21%; */
+    border-radius: 8px;
+    border: 1.5px solid white;
+    margin-top: 35px;
+    color: white;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.btn-submit {
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: rgb(218, 217, 217);
+    padding: 5px 15px;
+}
+
+.btn-submit:hover {
+    background-color: #5c5c5c63;
+    color: white;
+}
+
+.color-btn {
+    border: none;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 2.1px;
+}
